@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
+html, body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* Titles */
+.title-headline {
+  font-family: "Oswald";
+  font-weight: 500;
+  font-size: 2.2em;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #333333;
+}
+
+.title-headline span {
+  font-weight: 600;
+  color: #49a030;
+}
+
+.title-module-course {
+  font-family: "Roboto";
+  font-size: 1.2em;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #49a030;
+}
+
+.title-section-1 {
+  font-family: "Oswald";
+  font-weight: 400;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #f3f3f3;
+}
+
+.title-section-2 {
+  font-family: "Oswald";
+  font-weight: 300;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.title-section-2 span {
+  font-weight: 500;
+  color: #49a030;
+}
+
+/* Subtitles */
+.subtitle-headline {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 1.1em;
+  color: #333333;
+}
+
+/* Buttons */
+.btn-wrapper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.btn-1 {
+  font-family: "Roboto";
+  font-weight: 600;
+  font-size: 1.3em;
+  text-transform: uppercase;
+  color: #f3f3f3;
+  background-color: #49a030;
+  -webkit-box-shadow: 1px 8px #1c6b06;
+          box-shadow: 1px 8px #1c6b06;
+  padding: 10px 30px;
+  border-radius: 3em;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.btn-1:hover,
+.btn-1:focus {
+  color: #f3f3f3;
+  background-color: #1c6b06;
+}
+
+/* Headline */
+.headline-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.video-player-mobile {
+  width: 100%;
+  position: relative;
+  padding-bottom: 56.25%;
+}
+
+.video-player-mobile iframe {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border: none;
+}
+
+.video-player-desktop {
+  display: none;
+}
+
+@media (min-width: 992px) {
+  .video-player-mobile {
+    display: none;
+  }
+  .video-player-desktop {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.price-headline {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 1em;
+  color: #333333;
+}
+
+.price-headline span {
+  font-family: "Roboto";
+  font-weight: 600;
+  font-size: 1em;
+  color: #49a030;
+}
+
+/* About Producer */
+.about-producer {
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.description-producer {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 1em;
+  color: #f3f3f3;
+}
+
+/* About Course */
+.row-modules {
+  margin-top: 30px;
+}
+
+.card-module-course {
+  width: 100%;
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: 0 5px 25px 0 rgba(5, 5, 5, 0.2);
+          box-shadow: 0 5px 25px 0 rgba(5, 5, 5, 0.2);
+  padding: 30px;
+}
+
+@media (max-width: 991px) {
+  .row-modules {
+    margin-top: 0;
+  }
+  .card-module-course {
+    margin-bottom: 20px;
+  }
+}
+
+.icon-modules-course {
+  width: 85px;
+  max-width: 100%;
+  border: none;
+}
+
+.description-module-course {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 1em;
+  color: #333333;
+  margin: 0;
+}
+/*# sourceMappingURL=style.css.map */
