@@ -52,6 +52,22 @@ html, body {
   color: #49a030;
 }
 
+.title-bonus {
+  font-family: "Oswald";
+  font-weight: 400;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #f3f3f3;
+}
+
+@media (max-width: 991px) {
+  .title-bonus {
+    text-align: center;
+    margin-top: 30px;
+  }
+}
+
 /* Subtitles */
 .subtitle-headline {
   font-family: "Roboto";
@@ -90,6 +106,13 @@ html, body {
 .btn-1:focus {
   color: #f3f3f3;
   background-color: #1c6b06;
+}
+
+/* Image Background */
+.image-background {
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 /* Headline */
@@ -158,12 +181,6 @@ html, body {
 }
 
 /* About Producer */
-.about-producer {
-  background-position: center center;
-  background-size: cover;
-  background-attachment: fixed;
-}
-
 .description-producer {
   font-family: "Roboto";
   font-weight: 400;
@@ -218,12 +235,6 @@ html, body {
 }
 
 /* Student Results */
-.students-results {
-  background-position: center center;
-  background-size: cover;
-  background-attachment: fixed;
-}
-
 .image-flower img {
   width: 100%;
   height: 100%;
@@ -269,5 +280,56 @@ html, body {
 .owl-depositions .owl-dots .owl-dot span {
   background-color: transparent !important;
   border: 1px solid #49a030 !important;
+}
+
+/* Bonus */
+.bonus-content-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.image-bonus img {
+  width: 100%;
+  height: 350px;
+}
+
+.description-bonus {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 1em;
+  color: #f3f3f3;
+}
+
+@media (max-width: 991px) {
+  .bonus-content-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .image-bonus img {
+    width: 100%;
+    height: 492px;
+  }
+  .description-bonus {
+    text-align: center;
+  }
+}
+
+.separator {
+  width: 100%;
+  height: .5px;
+  background-color: #f3f3f3;
+  margin-top: 35px;
 }
 /*# sourceMappingURL=style.css.map */

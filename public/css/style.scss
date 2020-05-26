@@ -68,6 +68,24 @@ html, body {
     color: $color-3;
 }
 
+.title-bonus {
+    font: {
+        family: $font-secondary;
+        weight: 400;
+        size: 1.5em;
+    }
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: $color-1;
+}
+
+@media(max-width: 991px) {
+    .title-bonus {
+        text-align: center;
+        margin-top: 30px;
+    }
+}
+
 /* Subtitles */
 .subtitle-headline {
     font: {
@@ -104,6 +122,13 @@ html, body {
 .btn-1:focus {
     color: $color-1;
     background-color: $color-4;
+}
+
+/* Image Background */
+.image-background {
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 /* Headline */
@@ -161,12 +186,6 @@ html, body {
 }
 
 /* About Producer */
-.about-producer {
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
 .description-producer {
     font: {
         family: $font-primary;
@@ -217,12 +236,6 @@ html, body {
 }
 
 /* Student Results */
-.students-results {
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
 .image-flower img {
     width: 100%;
     height: 100%;
@@ -262,4 +275,48 @@ html, body {
 .owl-depositions .owl-dots .owl-dot span {
     background-color: transparent !important;
     border: 1px solid $color-3 !important;
+}
+
+/* Bonus */
+.bonus-content-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.image-bonus img {
+    width: 100%;
+    height: 350px;
+}
+
+.description-bonus {
+    font: {
+        family: $font-primary;
+        weight: 400;
+        size: 1em;
+    }
+    color: $color-1;
+}
+
+@media(max-width: 991px) {
+    .bonus-content-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image-bonus img {
+        width: 100%;
+        height: 492px;
+    }
+
+    .description-bonus {
+        text-align: center;
+    }
+}
+
+.separator {
+    width: 100%;
+    height: .5px;
+    background-color: $color-1;
+    margin-top: 35px;
 }
