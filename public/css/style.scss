@@ -8,6 +8,7 @@ $color-1: #f3f3f3;
 $color-2: #333333;
 $color-3: #49a030;
 $color-4: #1c6b06;
+$color-5: #fafafa;
 
 html, body { 
     margin: 0; 
@@ -84,6 +85,34 @@ html, body {
         text-align: center;
         margin-top: 30px;
     }
+}
+
+.title-warranty {
+    font: {
+        family: $font-primary;
+        weight: 400;
+        size: 1.2em;
+    }
+    color: $color-2;
+}
+
+.title-warranty span {
+    font-weight: 600;
+    color: $color-3;
+}
+
+.title-question {
+    font: {
+        family: $font-primary;
+        weight: 600;
+        size: 1.1em;
+    }
+    color: $color-2;
+}
+
+.title-question:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 /* Subtitles */
@@ -319,4 +348,83 @@ html, body {
     height: .5px;
     background-color: $color-1;
     margin-top: 35px;
+}
+
+/* Warranty */
+.warranty {
+    background: $color-5;
+}
+
+.image-warranty {
+    display: flex;
+    justify-content: center;
+}
+
+.description-warranty {
+    font: {
+        family: $font-primary;
+        weight: 400;
+        size: 1em;
+    }
+    color: $color-2;
+}
+
+/* F.A.Q */
+.question-item-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.question-content-head {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.question-content-head i {
+    font-size: 1.5em;
+    color: $color-3;
+    margin-right: 15px;
+}
+
+.answer-question {
+    font: {
+        family: $font-primary;
+        weight: 400;
+        size: 1em;
+    }
+    color: $color-2;
+    margin-left: 35px;;
+}
+
+.answer-question a {
+    font-weight: 500;
+    color: $color-3;
+    text-decoration: underline;
+}
+
+.description-cta {
+    font: {
+        family: $font-primary;
+        weight: 500;
+        size: 1em;
+    }
+    color: $color-2;
+}
+
+/* WhatsApp */
+.whatsapp {
+    background: $color-5;
+}
+
+.image-button-whatsapp-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-button-whatsapp img {
+    width: 400px;
+    margin-top: 25px;
 }

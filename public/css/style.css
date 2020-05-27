@@ -68,6 +68,30 @@ html, body {
   }
 }
 
+.title-warranty {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 1.2em;
+  color: #333333;
+}
+
+.title-warranty span {
+  font-weight: 600;
+  color: #49a030;
+}
+
+.title-question {
+  font-family: "Roboto";
+  font-weight: 600;
+  font-size: 1.1em;
+  color: #333333;
+}
+
+.title-question:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 /* Subtitles */
 .subtitle-headline {
   font-family: "Roboto";
@@ -331,5 +355,97 @@ html, body {
   height: .5px;
   background-color: #f3f3f3;
   margin-top: 35px;
+}
+
+/* Warranty */
+.warranty {
+  background: #fafafa;
+}
+
+.image-warranty {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.description-warranty {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 1em;
+  color: #333333;
+}
+
+/* F.A.Q */
+.question-item-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.question-content-head {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.question-content-head i {
+  font-size: 1.5em;
+  color: #49a030;
+  margin-right: 15px;
+}
+
+.answer-question {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 1em;
+  color: #333333;
+  margin-left: 35px;
+}
+
+.answer-question a {
+  font-weight: 500;
+  color: #49a030;
+  text-decoration: underline;
+}
+
+.description-cta {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 1em;
+  color: #333333;
+}
+
+/* WhatsApp */
+.whatsapp {
+  background: #fafafa;
+}
+
+.image-button-whatsapp-wrapper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.image-button-whatsapp img {
+  width: 400px;
+  margin-top: 25px;
 }
 /*# sourceMappingURL=style.css.map */
