@@ -3,6 +3,7 @@
 html, body {
   margin: 0;
   padding: 0;
+  border-top: 5px solid #49a030;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }

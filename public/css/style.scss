@@ -13,6 +13,7 @@ $color-5: #fafafa;
 html, body { 
     margin: 0; 
     padding: 0;
+    border-top: 5px solid $color-3;
     box-sizing: border-box;
 }
 
