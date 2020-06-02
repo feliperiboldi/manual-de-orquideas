@@ -21,25 +21,6 @@
     <!-- Style CSS -->
     <link rel="stylesheet" href="css/style.css">
 
-    <!-- Facebook Pixel Code -->
-    <script>
-        !function(f,b,e,v,n,t,s)
-            {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-            n.queue=[];t=b.createElement(e);t.async=!0;
-            t.src=v;s=b.getElementsByTagName(e)[0];
-            s.parentNode.insertBefore(t,s)}(window, document,'script',
-            'https://connect.facebook.net/en_US/fbevents.js');
-            fbq('init', '635625817032172');
-            fbq('track', 'PageView');
-    </script>
-    <noscript>
-        <img height="1" width="1" style="display:none"
-        src="https://www.facebook.com/tr?id=635625817032172&ev=PageView&noscript=1"/>
-    </noscript>
-    <!-- End Facebook Pixel Code -->
-
     <title>Manual de Orquídeas</title>
   </head>
   <body>
@@ -55,6 +36,26 @@
                     <p class="subtitle-headline text-center _pt15 _pb15">
                         Pare de sofrer com pragas, doenças ou manchas em suas orquídeas, você vai aprender o passo a passo <br/> para cultivar suas plantinhas como um profissional.
                     </p>
+
+                    <div id="clockdiv">
+                        <div>
+                            <span class="days"></span>
+                            <div class="smalltext">Dias</div>
+                        </div>
+                        <div>
+                            <span class="hours"></span>
+                            <div class="smalltext">Horas</div>
+                        </div>
+                        <div>
+                            <span class="minutes"></span>
+                            <div class="smalltext">Min</div>
+                        </div>
+                        <div>
+                            <span class="seconds"></span>
+                            <div class="smalltext">Seg</div>
+                        </div>
+                    </div>
+
                     <div class="video-player-mobile">
                         <iframe src="https://www.youtube.com/embed/yX--mnfDPWQ"></iframe>
                     </div>
@@ -564,5 +565,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script src="js/owl-scripts.js"></script>
+    <script src="js/countdown.js"></script>
   </body>
 </html>
